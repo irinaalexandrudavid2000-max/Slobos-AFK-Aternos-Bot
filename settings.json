@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "s_smp-t07.aternos.me",
+    "ip": "sharpness_smp-t07.aternos.me",
     "port": 40574,
     "version": "",
     "try-creative": false
@@ -29,12 +29,6 @@
     "chat-messages": {
       "enabled": false,
       "repeat": false,
-      "repeat-delay": 99999999999999999999999999999,
-      "messages": [
-        "",
-        "",
-        ""
-      ]
     },
     "chat-log": false,
     "auto-reconnect": true,
