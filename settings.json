@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "AFK-BOT",
+    "username": "serverbot",
     "password": "",
     "type": "offline"
   },
@@ -13,9 +13,9 @@
   },
   "position": {
     "enabled": true,
-    "x": 8000000,
-    "y": 0,
-    "z": 7000000
+    "x": 0,
+    "y": 100,
+    "z": 0
   },
   "utils": {
     "auto-auth": {
@@ -27,10 +27,16 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
-      "repeat": false,
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 120,
+      "messages": [
+        "i am the server bot meant to keep the server on",
+        "yo dont mind me",
+        "hello every body welcome to the server"
+      ]
     },
-    "chat-log": false,
+    "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
